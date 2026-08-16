@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MeSaMi | Daily • Home • Lifestyle</title>
+<meta name="description" content="MeSaMi — Daily, Home & Lifestyle products. Your trust, Our service.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+<a href="#home" class="logo"><div class="logo-circle">MSM</div><div class="logo-name">MeSaMi</div></a>
+<nav><a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
+
+<section id="home" class="hero">
+<div class="hero-content">
+<p class="small-title">DAILY • HOME • LIFESTYLE</p>
+<h1>Simple things.<br><span>Better living.</span></h1>
+<p class="hero-text">প্রয়োজনীয় ও সুন্দর পণ্য—সহজভাবে আপনার কাছে।</p>
+<a href="#products" class="main-button ripple">Explore Products</a>
+</div>
+<div class="hero-logo-card">
+<div class="big-logo-circle">MSM</div>
+<h2>MeSaMi</h2>
+<p>Your trust, Our service</p>
+</div>
+</section>
+
+<section id="products" class="section">
+<div class="section-title"><p class="small-title">OUR COLLECTION</p><h2>Featured Products</h2></div>
+<div class="products-grid">
+
+<article class="product-card">
+<div class="product-image"><div class="image-placeholder">Product Image</div></div>
+<div class="product-details"><span class="category">Natural</span><h3>সজনে পাতার গুঁড়া</h3><p>100g Premium Pack</p>
+<div class="product-bottom"><strong>৳ 00</strong><button class="buy-button ripple" onclick="orderProduct('সজনে পাতার গুঁড়া')">Buy Now</button></div></div>
+</article>
+
+<article class="product-card">
+<div class="product-image"><div class="image-placeholder">Product Image</div></div>
+<div class="product-details"><span class="category">Daily</span><h3>Stylish Umbrella</h3><p>Premium quality</p>
+<div class="product-bottom"><strong>৳ 00</strong><button class="buy-button ripple" onclick="orderProduct('Stylish Umbrella')">Buy Now</button></div></div>
+</article>
+
+<article class="product-card">
+<div class="product-image"><div class="image-placeholder">Product Image</div></div>
+<div class="product-details"><span class="category">Home</span><h3>Home Decor</h3><p>Stylish home accessories</p>
+<div class="product-bottom"><strong>৳ 00</strong><button class="buy-button ripple" onclick="orderProduct('Home Decor')">Buy Now</button></div></div>
+</article>
+
+</div>
+</section>
+
+<section id="about" class="about-section">
+<div class="about-content">
+<p class="small-title">ABOUT MESAMI</p>
+<h2>MeSaMi</h2>
+<p class="about-tagline">Your trust, Our service</p>
+<p class="about-text">প্রয়োজনীয়, সুন্দর ও ব্যবহারযোগ্য পণ্য সহজভাবে মানুষের কাছে পৌঁছে দেওয়াই আমাদের লক্ষ্য।</p>
+</div>
+</section>
+
+<section id="contact" class="section contact-section">
+<div class="section-title"><p class="small-title">CONTACT US</p><h2>Get In Touch</h2></div>
+<div class="contact-buttons">
+<button class="contact-button ripple" onclick="sendMessage()">💬 Message Us</button>
+<button class="contact-button ripple" onclick="callUs()">📞 Call Us</button>
+</div>
+</section>
+
+<footer><div class="footer-logo">MeSaMi</div><p>Your trust, Our service</p><p>© <span id="year"></span> MeSaMi</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
